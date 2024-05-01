@@ -33,7 +33,7 @@ config TWBT_VERSION
 config KLOKER
 	bool
 	prompt "with plugin Kloker"
-	default n
+	default y
 	depends on DFHACK
 
 config KLOKER_VERSION
